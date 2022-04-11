@@ -1,0 +1,26 @@
+body.dark{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
+}
+
+body.dark main {
+    background: rgb(12, 12, 11);
+    color: #ffffff;
+   
+  
+}
+body.dark a{
+    color: #ffffff;
+}
+body.dark div table{
+    color:#ffffff;
+}
+body.dark footer {
+    background: #000000;
+}
+body.dark .rusu23 {
+    background: #00000000;
+}

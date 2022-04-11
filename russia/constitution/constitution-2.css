@@ -1,0 +1,80 @@
+.cyrilic { 
+    list-style-type: none; /* Прячем исходную нумерацию */
+   }
+   .cyrilic li::before {
+    margin-right: 5px; /* Расстояние от буквы до текста */
+    width: 1em; /* Ширина */
+    text-align: right; /* Выравнивание по правому краю */
+    display: inline-block; /* Строчно-блочный элемент */
+   }
+   .cyrilic li:nth-child(1)::before { content: 'а)'; }
+   .cyrilic li:nth-child(2)::before { content: 'б)'; }
+   .cyrilic li:nth-child(3)::before { content: 'в)'; }
+   .cyrilic li:nth-child(4)::before { content: 'г)'; }
+   .cyrilic li:nth-child(5)::before { content: 'д)'; }
+   .cyrilic li:nth-child(6)::before { content: 'е)'; }
+   .cyrilic li:nth-child(8)::before { content: 'ж)'; }
+   .cyrilic li:nth-child(9)::before { content: 'з)'; }
+   .cyrilic li:nth-child(10)::before { content: 'и)'; }
+   .cyrilic li:nth-child(11)::before { content: 'й)'; }
+   .cyrilic li:nth-child(12)::before { content: 'к)'; }
+   .cyrilic li:nth-child(13)::before { content: 'л)'; }
+   .cyrilic li:nth-child(14)::before { content: 'м)'; }
+   .cyrilic li:nth-child(15)::before { content: 'н)'; }
+   .cyrilic li:nth-child(16)::before { content: 'о)'; }
+   .cyrilic li:nth-child(17)::before { content: 'п)'; }
+   .cyrilic li:nth-child(18)::before { content: 'р)'; }
+   .cyrilic li:nth-child(19)::before { content: 'с)'; }
+   .cyrilic li:nth-child(20)::before { content: 'т)'; }
+   .cyrilic li:nth-child(21)::before { content: 'у)'; }
+   .cyrilic li:nth-child(22)::before { content: 'ф)'; }
+   .cyrilic li:nth-child(23)::before { content: 'х)'; }
+   .cyrilic li:nth-child(24)::before { content: 'ц)'; }
+   .cyrilic li:nth-child(25)::before { content: 'ч)'; }
+   .cyrilic li:nth-child(26)::before { content: 'ш)'; }
+   .cyrilic li:nth-child(27)::before { content: 'щ)'; }
+   .cyrilic li:nth-child(28)::before { content: 'ъ)'; }
+   .cyrilic li:nth-child(29)::before { content: 'ы)'; }
+   .cyrilic li:nth-child(30)::before { content: 'ь)'; }
+   .cyrilic li:nth-child(31)::before { content: 'э)'; }
+   .cyrilic li:nth-child(32)::before { content: 'ю)'; }
+   .cyrilic li:nth-child(33)::before { content: 'я)'; }
+
+   
+
+.modul-gkrf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #f3f4ff;
+    border: 1px solid #aaa;
+}
+.modul-gkrf p{
+    text-indent: 0px;
+}
+.photo-gkrf-left {
+    height: 75px;
+    width: 75px;
+    float: left;
+  margin:  5px 10px;
+}
+.photo-gkrf-right {
+  
+    width: 75px;
+    float: right;
+  margin:  5px 10px;
+  border-radius: 0px;
+}
+.modul-gkr p a{
+    margin: 0%;
+    padding: 0%;
+}
+.gk{
+    margin: 0%;
+    color: blue;
+}
+.gk:hover{
+    border: none;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
