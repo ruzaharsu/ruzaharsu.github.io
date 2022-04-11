@@ -1,0 +1,15 @@
+User-agent: Yandex
+Disallow: /pay
+Sitemap: https://www.ru-stalin-ussr.ru/sitemap.xml
+
+User-agent: Googlebot
+Disallow:
+
+
+User-agent: AdsBot-Google
+Disallow: /political-na-postsovet-space/test/
+
+
+User-agent: Googlebot-Image
+Disallow: /political-na-postsovet-space/test/
+
