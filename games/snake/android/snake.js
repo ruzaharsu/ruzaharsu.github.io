@@ -84,9 +84,9 @@ img3.src = '/games/snake/android/yandex.png'
 let img4 = new Image()
 img4.src = '/games/snake/android/rudroid.png'
 let img5 = new Image()
-img5.src = '/political-na-postsovet-space/country/ukraine/flag-of-ukraine.png'
+img5.src = '/games/snake/android/android.png'
 let img6 = new Image()
-img6.src = '/political-na-postsovet-space/country/ukraine/flag-of-ukraine.png'
+img6.src = '/games/snake/android/android.png'
 function step() {
     ctx.fillStyle = colohik
     ctx.clearRect(0, 0, w, h)
